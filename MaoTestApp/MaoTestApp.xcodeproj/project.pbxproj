@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		951AD9734D9E36F0776496FF /* libPods-MaoTestApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B2BE403BC7F8452F73873B /* libPods-MaoTestApp.a */; };
+		C4565B2122018FC9000A5F33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4565B2022018FC9000A5F33 /* AppDelegate.m */; };
+		C4565B2422018FC9000A5F33 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4565B2322018FC9000A5F33 /* ViewController.m */; };
+		C4565B2722018FC9000A5F33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4565B2522018FC9000A5F33 /* Main.storyboard */; };
+		C4565B2922018FCA000A5F33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4565B2822018FCA000A5F33 /* Assets.xcassets */; };
+		C4565B2C22018FCA000A5F33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4565B2A22018FCA000A5F33 /* LaunchScreen.storyboard */; };
+		C4565B2F22018FCA000A5F33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4565B2E22018FCA000A5F33 /* main.m */; };
+		C4565B3722019008000A5F33 /* SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4565B3622019008000A5F33 /* SwiftViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B8B2BE403BC7F8452F73873B /* libPods-MaoTestApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MaoTestApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE10B7CA23FAAC2D39DEFF95 /* Pods-MaoTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaoTestApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MaoTestApp/Pods-MaoTestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		C4565B1C22018FC9000A5F33 /* MaoTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaoTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4565B1F22018FC9000A5F33 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C4565B2022018FC9000A5F33 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C4565B2222018FC9000A5F33 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C4565B2322018FC9000A5F33 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C4565B2622018FC9000A5F33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4565B2822018FCA000A5F33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4565B2B22018FCA000A5F33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4565B2D22018FCA000A5F33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4565B2E22018FCA000A5F33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4565B3522019007000A5F33 /* MaoTestApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MaoTestApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		C4565B3622019008000A5F33 /* SwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftViewController.swift; sourceTree = "<group>"; };
+		CFC306008534753E6F8C0215 /* Pods-MaoTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaoTestApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MaoTestApp/Pods-MaoTestApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4565B1922018FC9000A5F33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				951AD9734D9E36F0776496FF /* libPods-MaoTestApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21AE31FAAF40892D4723BD9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8B2BE403BC7F8452F73873B /* libPods-MaoTestApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		576D40441C3724D7D6CF1E4F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE10B7CA23FAAC2D39DEFF95 /* Pods-MaoTestApp.debug.xcconfig */,
+				CFC306008534753E6F8C0215 /* Pods-MaoTestApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C4565B1322018FC9000A5F33 = {
+			isa = PBXGroup;
+			children = (
+				C4565B1E22018FC9000A5F33 /* MaoTestApp */,
+				C4565B1D22018FC9000A5F33 /* Products */,
+				576D40441C3724D7D6CF1E4F /* Pods */,
+				21AE31FAAF40892D4723BD9D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C4565B1D22018FC9000A5F33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4565B1C22018FC9000A5F33 /* MaoTestApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4565B1E22018FC9000A5F33 /* MaoTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				C4565B1F22018FC9000A5F33 /* AppDelegate.h */,
+				C4565B2022018FC9000A5F33 /* AppDelegate.m */,
+				C4565B2222018FC9000A5F33 /* ViewController.h */,
+				C4565B2322018FC9000A5F33 /* ViewController.m */,
+				C4565B2522018FC9000A5F33 /* Main.storyboard */,
+				C4565B2822018FCA000A5F33 /* Assets.xcassets */,
+				C4565B2A22018FCA000A5F33 /* LaunchScreen.storyboard */,
+				C4565B2D22018FCA000A5F33 /* Info.plist */,
+				C4565B2E22018FCA000A5F33 /* main.m */,
+				C4565B3622019008000A5F33 /* SwiftViewController.swift */,
+				C4565B3522019007000A5F33 /* MaoTestApp-Bridging-Header.h */,
+			);
+			path = MaoTestApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4565B1B22018FC9000A5F33 /* MaoTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4565B3222018FCA000A5F33 /* Build configuration list for PBXNativeTarget "MaoTestApp" */;
+			buildPhases = (
+				BDB6872FF175DE956DAFD21C /* [CP] Check Pods Manifest.lock */,
+				C4565B1822018FC9000A5F33 /* Sources */,
+				C4565B1922018FC9000A5F33 /* Frameworks */,
+				C4565B1A22018FC9000A5F33 /* Resources */,
+				11BEE27782FE4779B84C677A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaoTestApp;
+			productName = MaoTestApp;
+			productReference = C4565B1C22018FC9000A5F33 /* MaoTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4565B1422018FC9000A5F33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Source;
+				TargetAttributes = {
+					C4565B1B22018FC9000A5F33 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = C4565B1722018FC9000A5F33 /* Build configuration list for PBXProject "MaoTestApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4565B1322018FC9000A5F33;
+			productRefGroup = C4565B1D22018FC9000A5F33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4565B1B22018FC9000A5F33 /* MaoTestApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4565B1A22018FC9000A5F33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4565B2C22018FCA000A5F33 /* LaunchScreen.storyboard in Resources */,
+				C4565B2922018FCA000A5F33 /* Assets.xcassets in Resources */,
+				C4565B2722018FC9000A5F33 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11BEE27782FE4779B84C677A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MaoTestApp/Pods-MaoTestApp-resources.sh",
+				"${PODS_ROOT}/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Map.framework/mapapi.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/mapapi.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MaoTestApp/Pods-MaoTestApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDB6872FF175DE956DAFD21C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MaoTestApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4565B1822018FC9000A5F33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4565B3722019008000A5F33 /* SwiftViewController.swift in Sources */,
+				C4565B2422018FC9000A5F33 /* ViewController.m in Sources */,
+				C4565B2F22018FCA000A5F33 /* main.m in Sources */,
+				C4565B2122018FC9000A5F33 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C4565B2522018FC9000A5F33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4565B2622018FC9000A5F33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4565B2A22018FCA000A5F33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4565B2B22018FCA000A5F33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4565B3022018FCA000A5F33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C4565B3122018FCA000A5F33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4565B3322018FCA000A5F33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE10B7CA23FAAC2D39DEFF95 /* Pods-MaoTestApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZXUM93UMJ2;
+				INFOPLIST_FILE = MaoTestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.source.MaoTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MaoTestApp/MaoTestApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4565B3422018FCA000A5F33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFC306008534753E6F8C0215 /* Pods-MaoTestApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZXUM93UMJ2;
+				INFOPLIST_FILE = MaoTestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.source.MaoTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MaoTestApp/MaoTestApp-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4565B1722018FC9000A5F33 /* Build configuration list for PBXProject "MaoTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4565B3022018FCA000A5F33 /* Debug */,
+				C4565B3122018FCA000A5F33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4565B3222018FCA000A5F33 /* Build configuration list for PBXNativeTarget "MaoTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4565B3322018FCA000A5F33 /* Debug */,
+				C4565B3422018FCA000A5F33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4565B1422018FC9000A5F33 /* Project object */;
+}
