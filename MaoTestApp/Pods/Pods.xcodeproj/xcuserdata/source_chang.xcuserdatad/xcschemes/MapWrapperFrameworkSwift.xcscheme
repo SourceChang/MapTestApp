@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7A974C64A1751EF6EEB8797654DC537F"
-               BlueprintName = "Pods-MaoTestApp"
+               BlueprintIdentifier = "1801D37263ACAAB21D011E8CD56E4EA0"
+               BlueprintName = "MapWrapperFrameworkSwift"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libPods-MaoTestApp.a">
+               BuildableName = "libMapWrapperFrameworkSwift.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

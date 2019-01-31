@@ -8,6 +8,8 @@
 
 
 import UIKit
+import MapFramework
+import MapWrapperFrameworkSwift
 
 
 class SwiftViewController: UIViewController {
@@ -17,7 +19,7 @@ class SwiftViewController: UIViewController {
         super.viewDidLoad()
         
         var mapViewFrame = view.bounds
-        mapViewFrame.size.height /= 2.00
+        mapViewFrame.size.height /= 3.00
         let mapView = SCMapView(frame: mapViewFrame)
         view.addSubview(mapView)
         
@@ -25,6 +27,11 @@ class SwiftViewController: UIViewController {
         mapWrapperViewFrame.origin.y = mapViewFrame.maxY
         let mapWrapperView = SCMapWrapperView(frame: mapWrapperViewFrame)
         view.addSubview(mapWrapperView)
+        
+        var anotherMapWrapperViewFrame = mapWrapperViewFrame
+        anotherMapWrapperViewFrame.origin.y = mapWrapperViewFrame.maxY
+        let anotherMapWrapperView = MapWrapperView(frame: anotherMapWrapperViewFrame)
+        view.addSubview(anotherMapWrapperView)
     }
 
     

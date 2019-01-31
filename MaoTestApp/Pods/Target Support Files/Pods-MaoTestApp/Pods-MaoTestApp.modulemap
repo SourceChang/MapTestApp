@@ -1,0 +1,6 @@
+module Pods_MaoTestApp {
+  umbrella header "Pods-MaoTestApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

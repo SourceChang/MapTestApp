@@ -9,6 +9,7 @@ target 'MaoTestApp' do
 
     
   pod 'MapWrapperFramework'
+  pod 'MapWrapperFrameworkSwift'
 
   
 end

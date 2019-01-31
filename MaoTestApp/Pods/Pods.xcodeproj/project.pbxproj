@@ -7,31 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1388D5888F03740C2D61D18C38FC7BC0 /* SCMapWrapperView.m in Sources */ = {isa = PBXBuildFile; fileRef = F60547B571163D75B991BD0F3F206F08 /* SCMapWrapperView.m */; };
-		1C36FB67B21F4FA3A5BEB62127BF157F /* SCMapWrapperView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D1F3AC09B24231454BD68393D713D88 /* SCMapWrapperView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A175B5483D0167198A710B4DBA81AC2C /* MapWrapperFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0182FB13F8F2D191C9AFC6E97E943D /* MapWrapperFramework-dummy.m */; };
-		A31756D1221F9A95134F870346CAFCB3 /* MapFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F4B1DE5A363853107F71B1B337208E /* MapFramework-dummy.m */; };
-		BB0B1AA38849A2DB5FCD2EE4DEC9DB62 /* SCMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = E13DBF4A3B6B3D68F93A38CF42C4A869 /* SCMapView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C4337B9E1EA283484BBBE02BE54481FD /* Pods-MaoTestApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C567D902CFFD153018C30AE6798CDD /* Pods-MaoTestApp-dummy.m */; };
-		DDA00202D78D9641607A2FD0ADF70830 /* SCMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDD29E5670345304CB4A619F6B7FA70 /* SCMapView.m */; };
+		0DE2E0E1C9C10B88B09FCE350DBCDA26 /* MapFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0A0BD1234D946557DFA1CB1C0F13D2A /* MapFramework-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1388D5888F03740C2D61D18C38FC7BC0 /* SCMapWrapperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 299B283EFAE39E5A72B88383E98E4D03 /* SCMapWrapperView.m */; };
+		1C36FB67B21F4FA3A5BEB62127BF157F /* SCMapWrapperView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B1BE54D0C28F51DB5EECD48D1C394AB /* SCMapWrapperView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2B62E165E9C5DED3A273482E540E96D8 /* MapFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B0C37A367BDA94D311D940D10E1CC0 /* MapFramework-dummy.m */; };
+		717874642683AB233ED05A8766E782E8 /* SCMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = DBDD976516427A90F43EEFAF1D843A80 /* SCMapView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		88BB05A64558A647C18108727511B24F /* Pods-MaoTestApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4035DF5AF34976C7600005D87471681 /* Pods-MaoTestApp-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8A973DED90731B66578A1A9E74043FBE /* Pods-MaoTestApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C43F7130108C99406AFEA74F518F8045 /* Pods-MaoTestApp-dummy.m */; };
+		8B19F6A1C01A96C7D610A76254DB55D8 /* MapWrapperFrameworkSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 432B243156FD69EB842E8D1E11C855B1 /* MapWrapperFrameworkSwift-dummy.m */; };
+		9A48B761AE840A5152721F982EFE51E8 /* MapWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADAEFE8FCDFC1EFF6DECFD1E87C046A /* MapWrapperView.swift */; };
+		A175B5483D0167198A710B4DBA81AC2C /* MapWrapperFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC09F9D6785713D1CEB8BC7257481BC4 /* MapWrapperFramework-dummy.m */; };
+		CA1B6A7796C9497C93752DB529E7E3BB /* SCMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1D1AA777BC31A21FFC69C0B998B17A /* SCMapView.m */; };
+		EA7E9AFA9794CB1868961EBB3BE7B093 /* MapWrapperFrameworkSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD3332BD40F513904C67AF7D118E24B2 /* MapWrapperFrameworkSwift-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		13CB4C6956BF7B5890DCEFDB84C676A1 /* PBXContainerItemProxy */ = {
+		36BE607E7A44B256C309F36FB41BC22B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FBACD1E0FC9D7D6A91390ABC7844229D;
+			remoteGlobalIDString = 1801D37263ACAAB21D011E8CD56E4EA0;
+			remoteInfo = MapWrapperFrameworkSwift;
+		};
+		9163D2ED3D8963C231B9CD18FCA0E87D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9555258D76CC0C4B7BC9B79BB0BDC275;
+			remoteInfo = MapFramework;
+		};
+		AC758BC07836CFF00626D2C6D72C3E4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9555258D76CC0C4B7BC9B79BB0BDC275;
 			remoteInfo = MapFramework;
 		};
 		B96CC670814AD97C36B72038D13ACBB7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FBACD1E0FC9D7D6A91390ABC7844229D;
+			remoteGlobalIDString = 9555258D76CC0C4B7BC9B79BB0BDC275;
 			remoteInfo = MapFramework;
 		};
-		C37A383795A4CD0CE161C052CA4F99D5 /* PBXContainerItemProxy */ = {
+		D485EE7244F18CCFD2E8493F9E9CFAE5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -41,46 +60,50 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00C244871D168244D6354DAA26C6E288 /* MapWrapperFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MapWrapperFramework.xcconfig; sourceTree = "<group>"; };
-		04E2990D5765D6463359BDF9477BF176 /* libPods-MaoTestApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MaoTestApp.a"; path = "libPods-MaoTestApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		053F6143D9461AE38EBFCF2ABAD3C371 /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Map.framework; path = BaiduMapKit/BaiduMapAPI_Map.framework; sourceTree = "<group>"; };
-		0F69186DDFA788C6B8DF2B2504BD5557 /* libMapWrapperFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMapWrapperFramework.a; path = libMapWrapperFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		11FE380C68C1ABF2F20595D6F7E32F7E /* Pods-MaoTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MaoTestApp.debug.xcconfig"; sourceTree = "<group>"; };
-		1E3DA847B1B5649A6A1B33C246BEBF4F /* libssl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssl.a; path = BaiduMapKit/thirdlibs/libssl.a; sourceTree = "<group>"; };
-		26C567D902CFFD153018C30AE6798CDD /* Pods-MaoTestApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MaoTestApp-dummy.m"; sourceTree = "<group>"; };
-		2DDD29E5670345304CB4A619F6B7FA70 /* SCMapView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCMapView.m; path = MapFramework/Classes/SCMapView.m; sourceTree = "<group>"; };
-		377033DF4C8654BFC2A621554E8D5FD8 /* MapFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MapFramework-prefix.pch"; sourceTree = "<group>"; };
-		37EC4B36CD1B8A7E8ABFE110202B217A /* Pods-MaoTestApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MaoTestApp-resources.sh"; sourceTree = "<group>"; };
-		4ABA8A3D8741FE265E44AEE05FC31C2D /* MapFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MapFramework.xcconfig; sourceTree = "<group>"; };
-		52448E08EB478BCD194F95E43129ED6B /* Pods-MaoTestApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MaoTestApp-frameworks.sh"; sourceTree = "<group>"; };
-		79DCAFF91454F80956297BEDE333BC29 /* MapWrapperFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MapWrapperFramework-prefix.pch"; sourceTree = "<group>"; };
-		801A45DA868B362C50A0EF9DD55B8C57 /* Pods-MaoTestApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MaoTestApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		8B74B73781FC012CF4FD3243A6799765 /* BaiduMapAPI_Utils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Utils.framework; path = BaiduMapKit/BaiduMapAPI_Utils.framework; sourceTree = "<group>"; };
+		115D55A767A495D533507FBB52A424DB /* Pods-MaoTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MaoTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		1CAA4056D67D71F41F31996198DCCF37 /* mapapi.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = mapapi.bundle; path = BaiduMapKit/BaiduMapAPI_Map.framework/mapapi.bundle; sourceTree = "<group>"; };
+		252A454C441F3577EF0122DC944665AC /* Pods-MaoTestApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MaoTestApp-resources.sh"; sourceTree = "<group>"; };
+		299B283EFAE39E5A72B88383E98E4D03 /* SCMapWrapperView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCMapWrapperView.m; path = MapWrapperFramework/Classes/SCMapWrapperView.m; sourceTree = "<group>"; };
+		35B4ADE03CF2A8E1BE7640A6C6021E75 /* MapWrapperFrameworkSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = MapWrapperFrameworkSwift.modulemap; path = ../../Headers/Public/MapWrapperFrameworkSwift/MapWrapperFrameworkSwift.modulemap; sourceTree = "<group>"; };
+		3C8692439A93A35B039B47CD29363804 /* libssl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssl.a; path = BaiduMapKit/thirdlibs/libssl.a; sourceTree = "<group>"; };
+		432B243156FD69EB842E8D1E11C855B1 /* MapWrapperFrameworkSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MapWrapperFrameworkSwift-dummy.m"; sourceTree = "<group>"; };
+		5FB1519E87A6EBD6F95FEFEB9727B0CA /* BaiduMapAPI_Search.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Search.framework; path = BaiduMapKit/BaiduMapAPI_Search.framework; sourceTree = "<group>"; };
+		5FCF46B8AD84F9143B46114FE6E146CB /* BaiduMapAPI_Utils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Utils.framework; path = BaiduMapKit/BaiduMapAPI_Utils.framework; sourceTree = "<group>"; };
+		61E9A39BC1063233C8B78EF222D3C3C3 /* Pods-MaoTestApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MaoTestApp-frameworks.sh"; sourceTree = "<group>"; };
+		6969CB3460EA8FC232C3C06C436D1E06 /* Pods-MaoTestApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MaoTestApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6ADAEFE8FCDFC1EFF6DECFD1E87C046A /* MapWrapperView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MapWrapperView.swift; path = MapWrapperFrameworkSwift/Classes/MapWrapperView.swift; sourceTree = "<group>"; };
+		6B1BE54D0C28F51DB5EECD48D1C394AB /* SCMapWrapperView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCMapWrapperView.h; path = MapWrapperFramework/Classes/SCMapWrapperView.h; sourceTree = "<group>"; };
+		6F5C7C22B83615C0A6E4ED2DFA1BA26B /* MapWrapperFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MapWrapperFramework.xcconfig; sourceTree = "<group>"; };
+		7B35335090FA305047071374D76DD538 /* libPods-MaoTestApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MaoTestApp.a"; path = "libPods-MaoTestApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82B5C2740D6C454D55DC125021941292 /* Pods-MaoTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MaoTestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		86B0C37A367BDA94D311D940D10E1CC0 /* MapFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MapFramework-dummy.m"; sourceTree = "<group>"; };
+		9019EDDBB09331197675F6B81E0639F8 /* Pods-MaoTestApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MaoTestApp-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		948015CE47FD3F4CE1F0A3C48957D828 /* libcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrypto.a; path = BaiduMapKit/thirdlibs/libcrypto.a; sourceTree = "<group>"; };
-		9D1F3AC09B24231454BD68393D713D88 /* SCMapWrapperView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCMapWrapperView.h; path = MapWrapperFramework/Classes/SCMapWrapperView.h; sourceTree = "<group>"; };
-		AD9C7A57672EA8B0BEC9A980DAE4DDD8 /* BaiduMapAPI_Search.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Search.framework; path = BaiduMapKit/BaiduMapAPI_Search.framework; sourceTree = "<group>"; };
-		B2B349BD13624589A3D9B6864C1C26A3 /* Pods-MaoTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MaoTestApp.release.xcconfig"; sourceTree = "<group>"; };
-		BDD9C96A348C7ACF507B14CEEBA721F8 /* Pods-MaoTestApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MaoTestApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BF0182FB13F8F2D191C9AFC6E97E943D /* MapWrapperFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MapWrapperFramework-dummy.m"; sourceTree = "<group>"; };
-		C9E83363A10A2865E8C40F0453218DDA /* mapapi.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = mapapi.bundle; path = BaiduMapKit/BaiduMapAPI_Map.framework/mapapi.bundle; sourceTree = "<group>"; };
-		D2F4B1DE5A363853107F71B1B337208E /* MapFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MapFramework-dummy.m"; sourceTree = "<group>"; };
-		E13DBF4A3B6B3D68F93A38CF42C4A869 /* SCMapView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCMapView.h; path = MapFramework/Classes/SCMapView.h; sourceTree = "<group>"; };
-		E7FE47B74F917623DEC5A86EB9144697 /* BaiduMapAPI_Cloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Cloud.framework; path = BaiduMapKit/BaiduMapAPI_Cloud.framework; sourceTree = "<group>"; };
-		F60547B571163D75B991BD0F3F206F08 /* SCMapWrapperView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCMapWrapperView.m; path = MapWrapperFramework/Classes/SCMapWrapperView.m; sourceTree = "<group>"; };
-		F74A87A99D727B9802F721B3266ECD3D /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Base.framework; path = BaiduMapKit/BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
-		FD0499042FBAA1775C568DB7548F7490 /* libMapFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMapFramework.a; path = libMapFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9639BDE7E31C5376EE77A461DFFF1A57 /* MapWrapperFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MapWrapperFramework-prefix.pch"; sourceTree = "<group>"; };
+		9C1D1AA777BC31A21FFC69C0B998B17A /* SCMapView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCMapView.m; path = MapFramework/Classes/SCMapView.m; sourceTree = "<group>"; };
+		A54BCB85B9937CDA706C0306451DFDE8 /* MapFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MapFramework-prefix.pch"; sourceTree = "<group>"; };
+		A56271A59BFA5014E42589049C11ACC9 /* libMapWrapperFrameworkSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMapWrapperFrameworkSwift.a; path = libMapWrapperFrameworkSwift.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD3332BD40F513904C67AF7D118E24B2 /* MapWrapperFrameworkSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MapWrapperFrameworkSwift-umbrella.h"; path = "../../Headers/Public/MapWrapperFrameworkSwift/MapWrapperFrameworkSwift-umbrella.h"; sourceTree = "<group>"; };
+		AEC23EF3F1D4B7E3C1129B0A6CB1B7E8 /* libMapFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMapFramework.a; path = libMapFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0A0BD1234D946557DFA1CB1C0F13D2A /* MapFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MapFramework-umbrella.h"; path = "../../Headers/Public/MapFramework/MapFramework-umbrella.h"; sourceTree = "<group>"; };
+		B4035DF5AF34976C7600005D87471681 /* Pods-MaoTestApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MaoTestApp-umbrella.h"; sourceTree = "<group>"; };
+		B5E0FFC064A8D44933D7825662CBFD74 /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Map.framework; path = BaiduMapKit/BaiduMapAPI_Map.framework; sourceTree = "<group>"; };
+		BC09F9D6785713D1CEB8BC7257481BC4 /* MapWrapperFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MapWrapperFramework-dummy.m"; sourceTree = "<group>"; };
+		C43F7130108C99406AFEA74F518F8045 /* Pods-MaoTestApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MaoTestApp-dummy.m"; sourceTree = "<group>"; };
+		C657CFD5B7C34AF687879A2D64592EA4 /* MapFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = MapFramework.modulemap; path = ../../Headers/Public/MapFramework/MapFramework.modulemap; sourceTree = "<group>"; };
+		CD3A6FEB7122924E31B514B447F57AC9 /* libcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrypto.a; path = BaiduMapKit/thirdlibs/libcrypto.a; sourceTree = "<group>"; };
+		D92F0897F87FF3B88D2C0719BCBC7C23 /* MapFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MapFramework.xcconfig; sourceTree = "<group>"; };
+		DBDD976516427A90F43EEFAF1D843A80 /* SCMapView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCMapView.h; path = MapFramework/Classes/SCMapView.h; sourceTree = "<group>"; };
+		E07B77BEC48B4CFE1A836F5715DA5828 /* Pods-MaoTestApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MaoTestApp.modulemap"; sourceTree = "<group>"; };
+		E4E1291F0F716493D0AF3BD90A215E90 /* libMapWrapperFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMapWrapperFramework.a; path = libMapWrapperFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5A02AF2338F6BA90F330C3BD2DB4E3C /* MapWrapperFrameworkSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MapWrapperFrameworkSwift.xcconfig; sourceTree = "<group>"; };
+		EA26DC5989F1072B2A0A3295B35D6E1A /* MapWrapperFrameworkSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MapWrapperFrameworkSwift-prefix.pch"; sourceTree = "<group>"; };
+		FACD9D7BF1C7D7C6680CD94B80B9DB18 /* BaiduMapAPI_Cloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Cloud.framework; path = BaiduMapKit/BaiduMapAPI_Cloud.framework; sourceTree = "<group>"; };
+		FC7624A2B02E69502B026C3994A4F9C8 /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Base.framework; path = BaiduMapKit/BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2E06942B500A59AA4EABDE50A5248628 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		37F260AB88FCFAF0931E0A89725739C7 /* Frameworks */ = {
+		5BD29F7092E9226FA9181F2104E950E7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -88,6 +111,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8F307912D323AE36771BF94C775CA19A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCAEC097982E1B2457083AC8999C248D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDEE89E491E248327BA526AAB0D9615A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -104,58 +141,47 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		11ED60758C6B03085ABFF5B758B39D5B /* BaiduMapKit */ = {
+		2851D4F277E93E01A121F4186AA9008B /* MapWrapperFrameworkSwift */ = {
 			isa = PBXGroup;
 			children = (
-				313CBED697E2F7FFFF7A1F75A266A49C /* Frameworks */,
-				D6ADAA6BB715C7E68498E20B51DB9B3C /* Resources */,
+				6ADAEFE8FCDFC1EFF6DECFD1E87C046A /* MapWrapperView.swift */,
+				A7E6BA88AC9AB05CE113245CE955C7F1 /* Support Files */,
 			);
-			name = BaiduMapKit;
-			path = BaiduMapKit;
+			name = MapWrapperFrameworkSwift;
+			path = MapWrapperFrameworkSwift;
 			sourceTree = "<group>";
 		};
-		25A9989694DB3C45DE2FDFD4CE9AEC05 /* MapFramework */ = {
+		49CC6ECB1DEE85DC065A6D3347DA4BBB /* MapWrapperFramework */ = {
 			isa = PBXGroup;
 			children = (
-				E13DBF4A3B6B3D68F93A38CF42C4A869 /* SCMapView.h */,
-				2DDD29E5670345304CB4A619F6B7FA70 /* SCMapView.m */,
-				C87FA954035BB0AFE69392B16337D407 /* Support Files */,
+				6B1BE54D0C28F51DB5EECD48D1C394AB /* SCMapWrapperView.h */,
+				299B283EFAE39E5A72B88383E98E4D03 /* SCMapWrapperView.m */,
+				CA65AFE534D32DF255C878551E9008A9 /* Support Files */,
+			);
+			name = MapWrapperFramework;
+			path = MapWrapperFramework;
+			sourceTree = "<group>";
+		};
+		511BDDBFB5D5CA85773D66EC8F7E4DE2 /* MapFramework */ = {
+			isa = PBXGroup;
+			children = (
+				DBDD976516427A90F43EEFAF1D843A80 /* SCMapView.h */,
+				9C1D1AA777BC31A21FFC69C0B998B17A /* SCMapView.m */,
+				E5ED6AD8D5D6C5B29BD6415AE3ECAAAB /* Support Files */,
 			);
 			name = MapFramework;
 			path = MapFramework;
 			sourceTree = "<group>";
 		};
-		313CBED697E2F7FFFF7A1F75A266A49C /* Frameworks */ = {
+		6F4A70E1940B9333EF3FB4104CA356C7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F74A87A99D727B9802F721B3266ECD3D /* BaiduMapAPI_Base.framework */,
-				E7FE47B74F917623DEC5A86EB9144697 /* BaiduMapAPI_Cloud.framework */,
-				053F6143D9461AE38EBFCF2ABAD3C371 /* BaiduMapAPI_Map.framework */,
-				AD9C7A57672EA8B0BEC9A980DAE4DDD8 /* BaiduMapAPI_Search.framework */,
-				8B74B73781FC012CF4FD3243A6799765 /* BaiduMapAPI_Utils.framework */,
-				948015CE47FD3F4CE1F0A3C48957D828 /* libcrypto.a */,
-				1E3DA847B1B5649A6A1B33C246BEBF4F /* libssl.a */,
+				AEC23EF3F1D4B7E3C1129B0A6CB1B7E8 /* libMapFramework.a */,
+				E4E1291F0F716493D0AF3BD90A215E90 /* libMapWrapperFramework.a */,
+				A56271A59BFA5014E42589049C11ACC9 /* libMapWrapperFrameworkSwift.a */,
+				7B35335090FA305047071374D76DD538 /* libPods-MaoTestApp.a */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		4747010A3CEF916E15ED2F9939FB8607 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8AE8AC907E2125D1F407404AC69F77D9 /* Pods-MaoTestApp */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		5F8F239989EF667D2F4502CFB2EF86C2 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				00C244871D168244D6354DAA26C6E288 /* MapWrapperFramework.xcconfig */,
-				BF0182FB13F8F2D191C9AFC6E97E943D /* MapWrapperFramework-dummy.m */,
-				79DCAFF91454F80956297BEDE333BC29 /* MapWrapperFramework-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/MapWrapperFramework";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -163,80 +189,145 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
-				D7C994F8939CCDCB16B006C1B3E4E897 /* Pods */,
-				B28CA5106E515A841610C41C1EEB45E1 /* Products */,
-				4747010A3CEF916E15ED2F9939FB8607 /* Targets Support Files */,
+				9958C24C97C5BED8B8B51E1196178E46 /* Pods */,
+				6F4A70E1940B9333EF3FB4104CA356C7 /* Products */,
+				ED5C6794E243C1978EB9F1FAA676F695 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8AE8AC907E2125D1F407404AC69F77D9 /* Pods-MaoTestApp */ = {
+		7DE3B67AD68987F3A4BA90634D0B8DBA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BDD9C96A348C7ACF507B14CEEBA721F8 /* Pods-MaoTestApp-acknowledgements.markdown */,
-				801A45DA868B362C50A0EF9DD55B8C57 /* Pods-MaoTestApp-acknowledgements.plist */,
-				26C567D902CFFD153018C30AE6798CDD /* Pods-MaoTestApp-dummy.m */,
-				52448E08EB478BCD194F95E43129ED6B /* Pods-MaoTestApp-frameworks.sh */,
-				37EC4B36CD1B8A7E8ABFE110202B217A /* Pods-MaoTestApp-resources.sh */,
-				11FE380C68C1ABF2F20595D6F7E32F7E /* Pods-MaoTestApp.debug.xcconfig */,
-				B2B349BD13624589A3D9B6864C1C26A3 /* Pods-MaoTestApp.release.xcconfig */,
+				FC7624A2B02E69502B026C3994A4F9C8 /* BaiduMapAPI_Base.framework */,
+				FACD9D7BF1C7D7C6680CD94B80B9DB18 /* BaiduMapAPI_Cloud.framework */,
+				B5E0FFC064A8D44933D7825662CBFD74 /* BaiduMapAPI_Map.framework */,
+				5FB1519E87A6EBD6F95FEFEB9727B0CA /* BaiduMapAPI_Search.framework */,
+				5FCF46B8AD84F9143B46114FE6E146CB /* BaiduMapAPI_Utils.framework */,
+				CD3A6FEB7122924E31B514B447F57AC9 /* libcrypto.a */,
+				3C8692439A93A35B039B47CD29363804 /* libssl.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F8746C178EF121E74C442CB34AA4F42 /* Pods-MaoTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				E07B77BEC48B4CFE1A836F5715DA5828 /* Pods-MaoTestApp.modulemap */,
+				6969CB3460EA8FC232C3C06C436D1E06 /* Pods-MaoTestApp-acknowledgements.markdown */,
+				9019EDDBB09331197675F6B81E0639F8 /* Pods-MaoTestApp-acknowledgements.plist */,
+				C43F7130108C99406AFEA74F518F8045 /* Pods-MaoTestApp-dummy.m */,
+				61E9A39BC1063233C8B78EF222D3C3C3 /* Pods-MaoTestApp-frameworks.sh */,
+				252A454C441F3577EF0122DC944665AC /* Pods-MaoTestApp-resources.sh */,
+				B4035DF5AF34976C7600005D87471681 /* Pods-MaoTestApp-umbrella.h */,
+				82B5C2740D6C454D55DC125021941292 /* Pods-MaoTestApp.debug.xcconfig */,
+				115D55A767A495D533507FBB52A424DB /* Pods-MaoTestApp.release.xcconfig */,
 			);
 			name = "Pods-MaoTestApp";
 			path = "Target Support Files/Pods-MaoTestApp";
 			sourceTree = "<group>";
 		};
-		B28CA5106E515A841610C41C1EEB45E1 /* Products */ = {
+		83B5B0F73FEF340BDBD87FB499252E11 /* BaiduMapKit */ = {
 			isa = PBXGroup;
 			children = (
-				FD0499042FBAA1775C568DB7548F7490 /* libMapFramework.a */,
-				0F69186DDFA788C6B8DF2B2504BD5557 /* libMapWrapperFramework.a */,
-				04E2990D5765D6463359BDF9477BF176 /* libPods-MaoTestApp.a */,
+				7DE3B67AD68987F3A4BA90634D0B8DBA /* Frameworks */,
+				9D4C34572894EBC3169AA13BA70B6083 /* Resources */,
 			);
-			name = Products;
+			name = BaiduMapKit;
+			path = BaiduMapKit;
 			sourceTree = "<group>";
 		};
-		C87FA954035BB0AFE69392B16337D407 /* Support Files */ = {
+		9958C24C97C5BED8B8B51E1196178E46 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4ABA8A3D8741FE265E44AEE05FC31C2D /* MapFramework.xcconfig */,
-				D2F4B1DE5A363853107F71B1B337208E /* MapFramework-dummy.m */,
-				377033DF4C8654BFC2A621554E8D5FD8 /* MapFramework-prefix.pch */,
+				83B5B0F73FEF340BDBD87FB499252E11 /* BaiduMapKit */,
+				511BDDBFB5D5CA85773D66EC8F7E4DE2 /* MapFramework */,
+				49CC6ECB1DEE85DC065A6D3347DA4BBB /* MapWrapperFramework */,
+				2851D4F277E93E01A121F4186AA9008B /* MapWrapperFrameworkSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9D4C34572894EBC3169AA13BA70B6083 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1CAA4056D67D71F41F31996198DCCF37 /* mapapi.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A7E6BA88AC9AB05CE113245CE955C7F1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				35B4ADE03CF2A8E1BE7640A6C6021E75 /* MapWrapperFrameworkSwift.modulemap */,
+				E5A02AF2338F6BA90F330C3BD2DB4E3C /* MapWrapperFrameworkSwift.xcconfig */,
+				432B243156FD69EB842E8D1E11C855B1 /* MapWrapperFrameworkSwift-dummy.m */,
+				EA26DC5989F1072B2A0A3295B35D6E1A /* MapWrapperFrameworkSwift-prefix.pch */,
+				AD3332BD40F513904C67AF7D118E24B2 /* MapWrapperFrameworkSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MapWrapperFrameworkSwift";
+			sourceTree = "<group>";
+		};
+		CA65AFE534D32DF255C878551E9008A9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F5C7C22B83615C0A6E4ED2DFA1BA26B /* MapWrapperFramework.xcconfig */,
+				BC09F9D6785713D1CEB8BC7257481BC4 /* MapWrapperFramework-dummy.m */,
+				9639BDE7E31C5376EE77A461DFFF1A57 /* MapWrapperFramework-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MapWrapperFramework";
+			sourceTree = "<group>";
+		};
+		E5ED6AD8D5D6C5B29BD6415AE3ECAAAB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C657CFD5B7C34AF687879A2D64592EA4 /* MapFramework.modulemap */,
+				D92F0897F87FF3B88D2C0719BCBC7C23 /* MapFramework.xcconfig */,
+				86B0C37A367BDA94D311D940D10E1CC0 /* MapFramework-dummy.m */,
+				A54BCB85B9937CDA706C0306451DFDE8 /* MapFramework-prefix.pch */,
+				B0A0BD1234D946557DFA1CB1C0F13D2A /* MapFramework-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/MapFramework";
 			sourceTree = "<group>";
 		};
-		D6ADAA6BB715C7E68498E20B51DB9B3C /* Resources */ = {
+		ED5C6794E243C1978EB9F1FAA676F695 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C9E83363A10A2865E8C40F0453218DDA /* mapapi.bundle */,
+				7F8746C178EF121E74C442CB34AA4F42 /* Pods-MaoTestApp */,
 			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		D7C994F8939CCDCB16B006C1B3E4E897 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				11ED60758C6B03085ABFF5B758B39D5B /* BaiduMapKit */,
-				25A9989694DB3C45DE2FDFD4CE9AEC05 /* MapFramework */,
-				DDEF85F7D727BE7A3EC1635CDBA7CB60 /* MapWrapperFramework */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		DDEF85F7D727BE7A3EC1635CDBA7CB60 /* MapWrapperFramework */ = {
-			isa = PBXGroup;
-			children = (
-				9D1F3AC09B24231454BD68393D713D88 /* SCMapWrapperView.h */,
-				F60547B571163D75B991BD0F3F206F08 /* SCMapWrapperView.m */,
-				5F8F239989EF667D2F4502CFB2EF86C2 /* Support Files */,
-			);
-			name = MapWrapperFramework;
-			path = MapWrapperFramework;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		213ADCF5798572FCAC4911CE685A125D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DE2E0E1C9C10B88B09FCE350DBCDA26 /* MapFramework-umbrella.h in Headers */,
+				717874642683AB233ED05A8766E782E8 /* SCMapView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		344C49BCEB737C2A01C280E51BF880A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7E9AFA9794CB1868961EBB3BE7B093 /* MapWrapperFrameworkSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BECDB861B81196A8988EB155B478A9F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88BB05A64558A647C18108727511B24F /* Pods-MaoTestApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A9836AA09FB298F9EBB1167C81E8945D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -245,41 +336,63 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BEB58B3352D855C8DA26A72026CD47AD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BB0B1AA38849A2DB5FCD2EE4DEC9DB62 /* SCMapView.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CBBBB8AB29F5429CC126076273331367 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		077D83A57C535F9FD2F6AACD40FDA2B4 /* Pods-MaoTestApp */ = {
+		1801D37263ACAAB21D011E8CD56E4EA0 /* MapWrapperFrameworkSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 56B32C97A74FE7B1BEA4311260AC6CDA /* Build configuration list for PBXNativeTarget "Pods-MaoTestApp" */;
+			buildConfigurationList = D1356A43741C050EA0F8262CDAC7DFFF /* Build configuration list for PBXNativeTarget "MapWrapperFrameworkSwift" */;
 			buildPhases = (
-				CBBBB8AB29F5429CC126076273331367 /* Headers */,
-				9B22585FB89B609769F6F08B2454CCBD /* Sources */,
-				37F260AB88FCFAF0931E0A89725739C7 /* Frameworks */,
+				344C49BCEB737C2A01C280E51BF880A1 /* Headers */,
+				8900B2ABDAFEEA592B6CA235835FCFB7 /* Sources */,
+				DDEE89E491E248327BA526AAB0D9615A /* Frameworks */,
+				8448C36CB94736A1CCBE4A0A6616EDD1 /* Copy generated compatibility header */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EC36E160E4AC29079BCD6697EF633FDF /* PBXTargetDependency */,
-				B47D7B1E23E5447DFF47E0A05286F18E /* PBXTargetDependency */,
+				0FC6CE79F5B8A3704F493DC23A613A4E /* PBXTargetDependency */,
+			);
+			name = MapWrapperFrameworkSwift;
+			productName = MapWrapperFrameworkSwift;
+			productReference = A56271A59BFA5014E42589049C11ACC9 /* libMapWrapperFrameworkSwift.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7A974C64A1751EF6EEB8797654DC537F /* Pods-MaoTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7B6FB5A99A301CA5231CF98EA3E8C18 /* Build configuration list for PBXNativeTarget "Pods-MaoTestApp" */;
+			buildPhases = (
+				7BECDB861B81196A8988EB155B478A9F /* Headers */,
+				EF96B8A476C6E3E1442CCF36ABD7CA8E /* Sources */,
+				DCAEC097982E1B2457083AC8999C248D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F59247E453A517D2E613AED52AC7858F /* PBXTargetDependency */,
+				36AC34C9001C660E4A9CA616D713CF8C /* PBXTargetDependency */,
+				679F3CBB5429A417BC287A8691BA12AB /* PBXTargetDependency */,
 			);
 			name = "Pods-MaoTestApp";
 			productName = "Pods-MaoTestApp";
-			productReference = 04E2990D5765D6463359BDF9477BF176 /* libPods-MaoTestApp.a */;
+			productReference = 7B35335090FA305047071374D76DD538 /* libPods-MaoTestApp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9555258D76CC0C4B7BC9B79BB0BDC275 /* MapFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACB75943AEDDD5EFAE67ACE4C8898EA5 /* Build configuration list for PBXNativeTarget "MapFramework" */;
+			buildPhases = (
+				213ADCF5798572FCAC4911CE685A125D /* Headers */,
+				856FE44526410A7E43F112AE0633C5FB /* Sources */,
+				5BD29F7092E9226FA9181F2104E950E7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapFramework;
+			productName = MapFramework;
+			productReference = AEC23EF3F1D4B7E3C1129B0A6CB1B7E8 /* libMapFramework.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		EFAD8064F47171FF6A3C8E3E058DF727 /* MapWrapperFramework */ = {
@@ -297,24 +410,7 @@
 			);
 			name = MapWrapperFramework;
 			productName = MapWrapperFramework;
-			productReference = 0F69186DDFA788C6B8DF2B2504BD5557 /* libMapWrapperFramework.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		FBACD1E0FC9D7D6A91390ABC7844229D /* MapFramework */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4371F2C402E068DC89F06A7214EE2796 /* Build configuration list for PBXNativeTarget "MapFramework" */;
-			buildPhases = (
-				BEB58B3352D855C8DA26A72026CD47AD /* Headers */,
-				99135A91F3ED0515F57DC999BF6F0FF0 /* Sources */,
-				2E06942B500A59AA4EABDE50A5248628 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MapFramework;
-			productName = MapFramework;
-			productReference = FD0499042FBAA1775C568DB7548F7490 /* libMapFramework.a */;
+			productReference = E4E1291F0F716493D0AF3BD90A215E90 /* libMapWrapperFramework.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -334,32 +430,62 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = B28CA5106E515A841610C41C1EEB45E1 /* Products */;
+			productRefGroup = 6F4A70E1940B9333EF3FB4104CA356C7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FBACD1E0FC9D7D6A91390ABC7844229D /* MapFramework */,
+				9555258D76CC0C4B7BC9B79BB0BDC275 /* MapFramework */,
 				EFAD8064F47171FF6A3C8E3E058DF727 /* MapWrapperFramework */,
-				077D83A57C535F9FD2F6AACD40FDA2B4 /* Pods-MaoTestApp */,
+				1801D37263ACAAB21D011E8CD56E4EA0 /* MapWrapperFrameworkSwift */,
+				7A974C64A1751EF6EEB8797654DC537F /* Pods-MaoTestApp */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8448C36CB94736A1CCBE4A0A6616EDD1 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/MapWrapperFrameworkSwift/MapWrapperFrameworkSwift.modulemap",
+				"${PODS_ROOT}/Headers/Public/MapWrapperFrameworkSwift/MapWrapperFrameworkSwift-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/MapWrapperFrameworkSwift-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/MapWrapperFrameworkSwift/MapWrapperFrameworkSwift.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/MapWrapperFrameworkSwift/MapWrapperFrameworkSwift-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+			showEnvVarsInLog = 1;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		99135A91F3ED0515F57DC999BF6F0FF0 /* Sources */ = {
+		856FE44526410A7E43F112AE0633C5FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A31756D1221F9A95134F870346CAFCB3 /* MapFramework-dummy.m in Sources */,
-				DDA00202D78D9641607A2FD0ADF70830 /* SCMapView.m in Sources */,
+				2B62E165E9C5DED3A273482E540E96D8 /* MapFramework-dummy.m in Sources */,
+				CA1B6A7796C9497C93752DB529E7E3BB /* SCMapView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B22585FB89B609769F6F08B2454CCBD /* Sources */ = {
+		8900B2ABDAFEEA592B6CA235835FCFB7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4337B9E1EA283484BBBE02BE54481FD /* Pods-MaoTestApp-dummy.m in Sources */,
+				8B19F6A1C01A96C7D610A76254DB55D8 /* MapWrapperFrameworkSwift-dummy.m in Sources */,
+				9A48B761AE840A5152721F982EFE51E8 /* MapWrapperView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,33 +498,79 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EF96B8A476C6E3E1442CCF36ABD7CA8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A973DED90731B66578A1A9E74043FBE /* Pods-MaoTestApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A5343483920CB02CC22C80F045E1B8A2 /* PBXTargetDependency */ = {
+		0FC6CE79F5B8A3704F493DC23A613A4E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MapFramework;
-			target = FBACD1E0FC9D7D6A91390ABC7844229D /* MapFramework */;
-			targetProxy = B96CC670814AD97C36B72038D13ACBB7 /* PBXContainerItemProxy */;
+			target = 9555258D76CC0C4B7BC9B79BB0BDC275 /* MapFramework */;
+			targetProxy = 9163D2ED3D8963C231B9CD18FCA0E87D /* PBXContainerItemProxy */;
 		};
-		B47D7B1E23E5447DFF47E0A05286F18E /* PBXTargetDependency */ = {
+		36AC34C9001C660E4A9CA616D713CF8C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MapWrapperFramework;
 			target = EFAD8064F47171FF6A3C8E3E058DF727 /* MapWrapperFramework */;
-			targetProxy = C37A383795A4CD0CE161C052CA4F99D5 /* PBXContainerItemProxy */;
+			targetProxy = D485EE7244F18CCFD2E8493F9E9CFAE5 /* PBXContainerItemProxy */;
 		};
-		EC36E160E4AC29079BCD6697EF633FDF /* PBXTargetDependency */ = {
+		679F3CBB5429A417BC287A8691BA12AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MapWrapperFrameworkSwift;
+			target = 1801D37263ACAAB21D011E8CD56E4EA0 /* MapWrapperFrameworkSwift */;
+			targetProxy = 36BE607E7A44B256C309F36FB41BC22B /* PBXContainerItemProxy */;
+		};
+		A5343483920CB02CC22C80F045E1B8A2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MapFramework;
-			target = FBACD1E0FC9D7D6A91390ABC7844229D /* MapFramework */;
-			targetProxy = 13CB4C6956BF7B5890DCEFDB84C676A1 /* PBXContainerItemProxy */;
+			target = 9555258D76CC0C4B7BC9B79BB0BDC275 /* MapFramework */;
+			targetProxy = B96CC670814AD97C36B72038D13ACBB7 /* PBXContainerItemProxy */;
+		};
+		F59247E453A517D2E613AED52AC7858F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MapFramework;
+			target = 9555258D76CC0C4B7BC9B79BB0BDC275 /* MapFramework */;
+			targetProxy = AC758BC07836CFF00626D2C6D72C3E4A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0457ED4240B7B3498A67583383EFD09E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5A02AF2338F6BA90F330C3BD2DB4E3C /* MapWrapperFrameworkSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MapWrapperFrameworkSwift/MapWrapperFrameworkSwift-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/MapWrapperFrameworkSwift/MapWrapperFrameworkSwift.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MapWrapperFrameworkSwift;
+				PRODUCT_NAME = MapWrapperFrameworkSwift;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		1C5EAEF7FC3AFAA62F91F16868A863B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00C244871D168244D6354DAA26C6E288 /* MapWrapperFramework.xcconfig */;
+			baseConfigurationReference = 6F5C7C22B83615C0A6E4ED2DFA1BA26B /* MapWrapperFramework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -420,9 +592,57 @@
 			};
 			name = Debug;
 		};
+		2BDF51DCF145DB4FBF31FA767310FC98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 115D55A767A495D533507FBB52A424DB /* Pods-MaoTestApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MaoTestApp/Pods-MaoTestApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F8A7A68FBCBE0A1E082588C347B9AAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D92F0897F87FF3B88D2C0719BCBC7C23 /* MapFramework.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MapFramework/MapFramework-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/MapFramework/MapFramework.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MapFramework;
+				PRODUCT_NAME = MapFramework;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		721D08AB1EDABC60B239BF386A6ED2D0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00C244871D168244D6354DAA26C6E288 /* MapWrapperFramework.xcconfig */;
+			baseConfigurationReference = 6F5C7C22B83615C0A6E4ED2DFA1BA26B /* MapWrapperFramework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -445,26 +665,24 @@
 			};
 			name = Release;
 		};
-		83E4578DEDCDE8F336F185D38DB0A71B /* Debug */ = {
+		82588D5E44CE97A956EF16CD49AD2BAC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4ABA8A3D8741FE265E44AEE05FC31C2D /* MapFramework.xcconfig */;
+			baseConfigurationReference = 82B5C2740D6C454D55DC125021941292 /* Pods-MaoTestApp.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/MapFramework/MapFramework-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MaoTestApp/Pods-MaoTestApp.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = MapFramework;
-				PRODUCT_NAME = MapFramework;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -531,48 +749,30 @@
 			};
 			name = Release;
 		};
-		A0A440E7C1698B331EC6E178BC81215F /* Debug */ = {
+		9D043C73D1227ED32665A28CB5211D79 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11FE380C68C1ABF2F20595D6F7E32F7E /* Pods-MaoTestApp.debug.xcconfig */;
+			baseConfigurationReference = E5A02AF2338F6BA90F330C3BD2DB4E3C /* MapWrapperFrameworkSwift.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MapWrapperFrameworkSwift/MapWrapperFrameworkSwift-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = Headers/Public/MapWrapperFrameworkSwift/MapWrapperFrameworkSwift.modulemap;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MapWrapperFrameworkSwift;
+				PRODUCT_NAME = MapWrapperFrameworkSwift;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
-		};
-		A5C3F3AA41540A722CB8267F99098436 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2B349BD13624589A3D9B6864C1C26A3 /* Pods-MaoTestApp.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
 		};
 		A73625DEBD810B78234FA1958C191C8C /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -640,9 +840,9 @@
 			};
 			name = Debug;
 		};
-		EEA4B955F9E653853A4432523D500369 /* Release */ = {
+		FAA92C710C0BF1539627E1D031469CFF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4ABA8A3D8741FE265E44AEE05FC31C2D /* MapFramework.xcconfig */;
+			baseConfigurationReference = D92F0897F87FF3B88D2C0719BCBC7C23 /* MapFramework.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -650,6 +850,7 @@
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/MapFramework/MapFramework-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/MapFramework/MapFramework.modulemap;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -677,20 +878,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4371F2C402E068DC89F06A7214EE2796 /* Build configuration list for PBXNativeTarget "MapFramework" */ = {
+		A7B6FB5A99A301CA5231CF98EA3E8C18 /* Build configuration list for PBXNativeTarget "Pods-MaoTestApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83E4578DEDCDE8F336F185D38DB0A71B /* Debug */,
-				EEA4B955F9E653853A4432523D500369 /* Release */,
+				82588D5E44CE97A956EF16CD49AD2BAC /* Debug */,
+				2BDF51DCF145DB4FBF31FA767310FC98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		56B32C97A74FE7B1BEA4311260AC6CDA /* Build configuration list for PBXNativeTarget "Pods-MaoTestApp" */ = {
+		ACB75943AEDDD5EFAE67ACE4C8898EA5 /* Build configuration list for PBXNativeTarget "MapFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A0A440E7C1698B331EC6E178BC81215F /* Debug */,
-				A5C3F3AA41540A722CB8267F99098436 /* Release */,
+				5F8A7A68FBCBE0A1E082588C347B9AAD /* Debug */,
+				FAA92C710C0BF1539627E1D031469CFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -700,6 +901,15 @@
 			buildConfigurations = (
 				1C5EAEF7FC3AFAA62F91F16868A863B3 /* Debug */,
 				721D08AB1EDABC60B239BF386A6ED2D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1356A43741C050EA0F8262CDAC7DFFF /* Build configuration list for PBXNativeTarget "MapWrapperFrameworkSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D043C73D1227ED32665A28CB5211D79 /* Debug */,
+				0457ED4240B7B3498A67583383EFD09E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

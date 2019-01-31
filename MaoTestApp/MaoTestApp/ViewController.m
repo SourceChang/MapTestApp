@@ -15,6 +15,9 @@
 #import <MapFramework/SCMapView.h>
 
 
+@import MapWrapperFrameworkSwift;
+
+
 @interface ViewController ()
 
 
@@ -29,15 +32,23 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     CGRect mapWrapperViewFrame = self.view.bounds;
-    mapWrapperViewFrame.size.height /= 2.00;
+    mapWrapperViewFrame.size.height /= 3.00;
     SCMapWrapperView *mapWrapperView = [[SCMapWrapperView alloc] initWithFrame:mapWrapperViewFrame];
     [self.view insertSubview:mapWrapperView
                 belowSubview:self.swiftButton];
+    
     
     CGRect mapViewFrame = mapWrapperViewFrame;
     mapViewFrame.origin.y = CGRectGetMaxY(mapWrapperViewFrame);
     SCMapWrapperView *mapView = [[SCMapWrapperView alloc] initWithFrame:mapViewFrame];
     [self.view insertSubview:mapView
+                belowSubview:self.swiftButton];
+    
+    
+    CGRect anotherWrapperViewFrame = mapViewFrame;
+    anotherWrapperViewFrame.origin.y = CGRectGetMaxY(mapViewFrame);
+    MapWrapperView *anotherWrapperView = [[MapWrapperView alloc] initWithFrame:anotherWrapperViewFrame];
+    [self.view insertSubview:anotherWrapperView
                 belowSubview:self.swiftButton];
 }
 
